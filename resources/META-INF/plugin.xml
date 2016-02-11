@@ -1,0 +1,35 @@
+<idea-plugin version="2">
+  <id>com.jl.golang.oracle</id>
+  <name>golang oracle command tool</name>
+  <version>1.0</version>
+  <vendor email="182052514@qq.com" url="http://www.yourcompany.com">github.com</vendor>
+
+  <description><![CDATA[
+      A very simple golang oracle command tool plugin.<br>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <br>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="go_oracle_implements" class="org.jk.oracle.implement.GoOracleImplements" text="go_oracle_implements"
+            description="golang oracle tool implements command"/>
+  </actions>
+
+</idea-plugin>
