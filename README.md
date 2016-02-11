@@ -1,0 +1,1 @@
+A very simple plugin of golang `oracle` command tool for Intellij Idea.
